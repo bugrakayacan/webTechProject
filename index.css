@@ -1,0 +1,56 @@
+.hakkimda {
+    margin: 0px auto;
+    max-width: 70%;
+    border: 1px solid #000700;
+  }
+  .photo {
+margin: 20px auto;
+width: auto;
+height: auto;
+position: relative;
+overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 2em;
+max-height: 600px;
+max-width: 600px;
+  }
+  .photo img {
+
+min-height:650px;
+object-fit: cover;
+transform:scale(1.3);
+margin-top: -40px;
+
+}
+  body {
+  font-family: 'Raleway', cursive;
+  }   
+.responsive-div {
+width: 80%; /* Div'in genişliğini ayarlayın */
+height: auto; /* Div'in yüksekliğini otomatik olarak ayarlayın */
+margin: auto; /* Div'i sayfanın ortasına konumlandırın */
+padding: 20px; /* Div'in içindeki yazılar ile arasına boşluk bırakın */
+overflow: hidden; /* Yazıların div'in dışına taşmasını engelleyin */
+}
+.responsive-div p {
+font-size: 16px; /* Yazıların boyutunu ayarlayın */
+margin: 0; /* Yazıların üst ve altındaki boşlukları kaldırın */
+padding: 0; /* Yazıların iç ve dışındaki boşlukları kaldırın */
+}
+@media only screen and (max-width: 768px) {
+/* Mobil cihazlarda div boyutlarını ayarlayın */
+.responsive-div {
+width: 100%; /* Div'in genişliğini %100 yapın */
+padding: 10px; /* Yazılar ile arasındaki boşluğu azaltın */
+}
+.responsive-div p {
+font-size: 14px; /* Yazıların boyutunu küçültün */
+}
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
