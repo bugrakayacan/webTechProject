@@ -48,7 +48,7 @@ searchBtn.addEventListener("click", () => {
         </div>
          <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Yaygın Diller:</h4>
+                <h4>Yaygın Dil(ler):</h4>
                 <span>${Object.values(data[0].languages)
                   .toString()
                   .split(",")
@@ -59,9 +59,9 @@ searchBtn.addEventListener("click", () => {
     })
     .catch(() => {
       if (countryName.length == 0) {
-        result.innerHTML = `<h3>The input field cannot be empty</h3>`;
+        result.innerHTML = `<h3>Giriş Boş Bırakılamaz!</h3>`;
       } else {
-        result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
+        result.innerHTML = `<h3>Lütfen geçerli bir ülke adı girin. (İngilizce)</h3>`;
       }
     });
 });

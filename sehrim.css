@@ -7,9 +7,10 @@
 margin: 20px auto;
 width: 75%;
 height: auto;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 position: relative;
 overflow: hidden;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 border-radius: 2em;
   }
   .carousel img {
