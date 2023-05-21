@@ -12,8 +12,12 @@ body
   font-family: "Raleway";
 }   
 
+.custom-select option[disabled] {
+  color: #999;
+}
+
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
